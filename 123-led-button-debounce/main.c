@@ -34,15 +34,16 @@ int main()
     {
        
        bool current = get_button_debounce(BUTTON_PIN);
-       // bool current = gpio_get(BUTTON_PIN);
+       
 
         if (previous == true && current == false)
         {
             led = !led;
             gpio_put(LED_PIN, led);
         }
-        sleep_ms(10);
+        
 
         previous = current;
+        sleep_ms(10);
     }
 }

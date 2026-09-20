@@ -20,6 +20,7 @@ int main()
 {
      
     gpio_init(LED_PIN);
+    
     // инициализируем пин светодиода
 
     gpio_set_dir(LED_PIN, GPIO_OUT);

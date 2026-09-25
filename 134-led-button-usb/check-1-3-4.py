@@ -62,3 +62,8 @@ else:
     exchange = talk(board)
     write_log(board, exchange)
     print("Обмен записан в " + LOG_NAME, end="\r\n")
+
+
+
+
+    

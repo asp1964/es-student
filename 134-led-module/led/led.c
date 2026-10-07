@@ -1,8 +1,8 @@
 #include "led.h"
 #include "hardware/gpio.h"
 
-//const uint LED_PIN = 18;
-static const uint LED_PIN = 18;
+const uint LED_PIN = 18;
+
 static bool led_state = false;
 
 void led_init(void)

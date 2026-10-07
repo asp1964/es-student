@@ -8,7 +8,6 @@
 const uint DEBOUNCE_MS = 20;
 const uint BUTTON_PIN = 15;
 
-
 bool get_button_debounce(uint pin)
 {
     // читаем вывод устойчиво к дребезгу

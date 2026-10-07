@@ -1,5 +1,5 @@
 
-// заголовочные файлы: добавился led.h, константы LED_PIN больше нет
+
 #include "pico/stdlib.h"
 #include <stdio.h>
 #include "hardware/gpio.h"
